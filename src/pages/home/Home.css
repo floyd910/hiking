@@ -1,0 +1,6 @@
+.slogan {
+  max-width: 1337px;
+  position: relative;
+  margin: auto;
+  top: calc(100px - 100vh);
+}

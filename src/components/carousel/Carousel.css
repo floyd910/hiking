@@ -1,0 +1,21 @@
+/* Carousel.scss */
+.carousel-container {
+  width: 100%; /* Adjust the width as needed */
+  overflow-x: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .slide {
+    background-position: bottom;
+  }
+}

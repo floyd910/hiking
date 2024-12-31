@@ -1,0 +1,68 @@
+header {
+  background: rgb(67 67 67);
+  width: 100%;
+  max-width: 1287px;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 15px;
+  left: 0;
+  z-index: 1;
+  padding: 0 25px;
+}
+
+.brand_logo {
+  width: 38px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: white;
+}
+
+.brand_logo h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: proxima-nova, Verdana, Geneva, sans-serif;
+}
+
+.brand_logo img {
+  width: 100%;
+}
+
+.desktop_menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav h2 {
+  font-size: 16px;
+  font-family: proxima-nova, Verdana, Geneva, sans-serif;
+}
+
+nav h2:hover {
+  color: #f55d2f;
+}
+
+.mobile_menu {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .mobile_menu {
+    display: block;
+  }
+
+  .desktop_menu {
+    display: none;
+  }
+}
