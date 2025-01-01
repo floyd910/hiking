@@ -49,7 +49,7 @@ nav h2 {
   font-family: proxima-nova, Verdana, Geneva, sans-serif;
 }
 
-nav h2:hover {
+.link h2:hover {
   color: #f55d2f;
 }
 

@@ -67,6 +67,7 @@ const AboutUs = () => {
             className="team_img"
             src="https://res.cloudinary.com/dxhhvp8jh/image/upload/v1706877203/about_us/DSCF0092_cover_soizjk.jpg"
             alt="PinGeorgia.ge"
+            loading="lazy" // Lazy loading for header image
           />
         </div>
       </div>
@@ -94,7 +95,8 @@ const AboutUs = () => {
               <img
                 className="member_img"
                 src={member.img}
-                alt="PinGeorgia.ge"
+                alt={member.name}
+                loading="lazy" // Lazy loading for member images
               />
               <div className="member_info">
                 <p className="member_description">

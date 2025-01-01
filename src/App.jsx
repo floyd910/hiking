@@ -1,6 +1,7 @@
 import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
 import ScrollToTop from "./components/scrollTop/ScrollTop";
+import Footer from "./components/footer/Footer";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Footer from "./components/footer/Footer";
@@ -349,6 +350,7 @@ export default function App() {
 
         <Route path="/rent_equipment" element={<Equipment />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

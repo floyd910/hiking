@@ -63,17 +63,21 @@ const Equimpent = () => {
         <tbody>
           {equipment.map((price, index) => {
             return (
-              <tr key={price.name}>
+              <tr key={index}>
                 <td>
                   <h5>
                     <strong>{price.title}</strong>
                   </h5>
                 </td>
-                <td>{price.day}GEL</td>
-                <td>{price.weekend}GEL</td>
-                <td>{price.week}GEL</td>
+                <td>{price.day} GEL</td>
+                <td>{price.weekend} GEL</td>
+                <td>{price.week} GEL</td>
                 <td>
-                  <img alt={equipment.title} src={price.img} />
+                  <img
+                    alt={price.title}
+                    src={price.img}
+                    loading="lazy" // Added lazy loading
+                  />
                 </td>
               </tr>
             );
