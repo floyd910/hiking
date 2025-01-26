@@ -15,6 +15,7 @@ import Equipment from "./pages/equipment/Equipment";
 // import Canyoning from "./pages/canyoning/Canyoning";
 // import Festival from "./pages/festival/Festival";
 import "./App.css";
+import TourDetails from "./pages/tourDetails/TourDetails";
 
 export default function App() {
   const tours = [
@@ -337,15 +338,15 @@ export default function App() {
           path="/tour/4_day_adventures_svaneti_kutaisi"
           element={<Tour2 />}
         /> */}
-        {/* {tours.map((tour) => {
+        {tours.map((tour) => {
           return (
             <Route
               path={`/tour/${tour.link}`}
-              element={<Tour tour={tour} />}
+              element={<TourDetails tourItem={tour} />}
               key={tour.link}
             />
           );
-        })} */}
+        })}
         <Route path="/about_us" element={<AboutUs />} />
 
         <Route path="/rent_equipment" element={<Equipment />} />

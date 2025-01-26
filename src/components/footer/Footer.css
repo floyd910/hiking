@@ -9,6 +9,7 @@ footer {
 
 footer strong {
   font-size: 20px;
+  color: white;
 }
 
 .socials {
@@ -21,10 +22,12 @@ footer strong {
 .footer_pages h2 {
   font-size: 17px;
   font-weight: normal;
+  color: white;
 }
 
 .footer_pages h5 {
   font-size: 18px;
+  color: white;
 }
 
 .footer_pages {

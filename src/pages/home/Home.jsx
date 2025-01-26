@@ -2,14 +2,15 @@ import React from "react";
 import HeroCarousel from "../../components/carousel/Carousel";
 import Hero from "../../components/hero/Hero";
 import "./Home.css";
+import Tours from "../../components/tours/Tours";
 
-const Home = () => {
+const Home = ({ tours }) => {
   return (
     <>
       <HeroCarousel />
-      <div>
-        <div className="slogan">
-          <Hero />
+      <div className="page home_page">
+        <div>
+          <Tours tours={tours} />
         </div>
       </div>
     </>

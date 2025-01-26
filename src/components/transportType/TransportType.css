@@ -1,0 +1,43 @@
+.transport_type {
+  width: 100%;
+  color: black;
+  text-align: left;
+}
+.transport_type .images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+.transport_type ul {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.transport_type p {
+  margin-left: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.transport_type {
+  margin-top: 30px;
+  width: 100%;
+}
+.transport_type img {
+  width: 220px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.transport_description {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .transport_type img {
+    width: 100%;
+  }
+}

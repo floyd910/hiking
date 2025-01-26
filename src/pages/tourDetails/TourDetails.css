@@ -1,0 +1,88 @@
+.tour_page p {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.tour_page img {
+  width: 500px;
+  height: 300px;
+}
+
+.tour_page .cover {
+  margin-top: 20px;
+}
+.tour_page .cover img {
+  width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.gap50 {
+  gap: 25px 50px;
+}
+
+.location_text {
+  width: 55%;
+}
+
+.tour_container {
+  margin-top: 30px;
+}
+.tour_container .subtitle {
+  margin-bottom: 15px;
+}
+
+.details_images {
+  margin-top: 20px;
+}
+.details_images img {
+  width: 20%;
+}
+
+.itinerary,
+.additional {
+  width: 45%;
+}
+
+.alternative {
+  color: #f55d2f;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.map {
+  margin-top: 20px;
+}
+
+.price {
+  width: 27%;
+}
+
+.other_prices {
+  margin-top: 20px;
+}
+
+.transport {
+  width: 70%;
+}
+
+@media only screen and (max-width: 900px) {
+  .location_img,
+  .location_text,
+  .transport,
+  .price,
+  .price img,
+  .details_images img,
+  .transport img,
+  .itinerary,
+  .additional,
+  .itinerary_images img {
+    width: 100% !important;
+  }
+}
